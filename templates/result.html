@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Result</title>
+</head>
+<a href="/logout">Signout</a>
+<br>
+
+<br><br>
+<body>  
+<br>           
+	Upload complete!
+
+	
+	{% for image_name in image_names %}
+		<div>
+			<img src="{{url_for('send_processed_image', filename=image_name, selected_style=selected_style)}}">
+			<img src="{{url_for('send_original_image', filename=image_name)}}">
+		</div>
+	{% endfor %}
+
+</body>
+</body>
+</html>

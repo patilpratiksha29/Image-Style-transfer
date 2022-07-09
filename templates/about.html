@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Image Style Transfer | About</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Photographer html template">
+	<meta name="keywords" content="photographer, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="{{url_for('static',filename ='img/favicon.ico')}}" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="{{url_for('static',filename ='css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static',filename ='css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static',filename ='css/magnific-popup.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static',filename ='css/slicknav.min.css')}}"/>
+	<link rel="stylesheet" href="{{url_for('static',filename ='css/owl.carousel.min.css')}}"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="{{url_for('static',filename ='css/style.css')}}"/>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section  -->
+	<header class="header-section hs-bd">
+		<a href="/" class="site-logo"><img src="{{url_for('static',filename ='img/logo.png')}}" alt="logo"></a>
+		<div class="header-controls">
+			<button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
+			
+		</div>
+		<ul class="main-menu">
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About </a></li>
+			<li><a href="/contact">Contact</a></li>
+			
+		</ul>
+	</header>
+	<div class="clearfix"></div>
+	<!-- Header section end  -->
+
+	<!-- About section  -->
+	<section class="about-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 p-0">
+					<div class="about-bg set-bg" data-setbg="{{url_for('static',filename ='img/about.jpg')}}"></div>
+				</div>
+				<div class="col-lg-6 p-0">
+					<div class="about-text">
+						<h2>Nural Style Transfer</h2>
+						<p>Neural Style Transfer (NST) refers to a class of software algorithms that manipulate digital images, or videos, in order to adopt the appearance or visual style of another image. NST algorithms are characterized by their use of deep neural networks for the sake of image transformation. Common uses for NST are the creation of artificial artwork from photographs, for example by transferring the appearance of famous paintings to user-supplied photographs. Several notable mobile apps use NST techniques for this purpose, including DeepArt and Prisma. This method has been used by artists and designers around the globe to develop new artwork based on existent style(s).</p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About section end  -->
+	
+	<!-- Skills section  -->
+	<div class="skill-section set-bg" data-setbg="{{url_for('static',filename ='img/skills-bg.jpg')}}">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="circle-progress text-white" data-cptitle="Passion" data-cpid="id-1" data-cpvalue="100" data-cpcolor="#ffffff"></div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="circle-progress text-white" data-cptitle="Models" data-cpid="id-2" data-cpvalue="75" data-cpcolor="#ffffff"></div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="circle-progress text-white" data-cptitle="Studio" data-cpid="id-3" data-cpvalue="25" data-cpcolor="#ffffff"></div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="circle-progress text-white" data-cptitle="Nature" data-cpid="id-4" data-cpvalue="50" data-cpcolor="#ffffff"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Skills section end  -->
+	
+	<!-- Services section  -->
+	<section class="services-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="services-item">
+						<img src="{{url_for('static',filename ='img/icons/1.png')}}" alt="">
+						<h4>Studio Photography</h4>
+						<p>A studio photographer is a professional photographer who works in a studio setting. They take pictures of individuals or groups of people. They may use set pieces, backdrops, lighting equipment and filters to create the appropriate effect for the photographs.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="services-item">
+						<img src="{{url_for('static',filename ='img/icons/2.png')}}" alt="">
+						<h4>Wedding Editing</h4>
+						<p>More experienced and reputable photo editors tend to ask for an hourly fee. According to salary.com, the average hourly fee for photo editing is $34. The rates start at about $25 per hour for newbie editors. Experienced photo editors can charge $45 per hour or even more for their services.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="services-item">
+						<img src="{{url_for('static',filename ='img/icons/3.png')}}" alt="">
+						<h4>Photo Angle</h4>
+						<p>The degree at which the camera faces the subject. - You can change the composition of your photos based on the position and angle. - Decide on a position before choosing an angle. The position refers to the height at which the camera is held relative to the ground.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="services-item">
+						<img src="{{url_for('static',filename ='img/icons/4.png')}}" alt="">
+						<h4>Modern Editing</h4>
+						<p>The most basic of editing styles, a clean edit means that you’re adjusting just the basics to clean up the image. This includes things like sharpness, color temperature, and clarity.The idea of the clean edit is to make the photo look as natural as possible as if you’ve done no edits to it at all. </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="services-item">
+						<img src="{{url_for('static',filename ='img/icons/5.png')}}" alt="">
+						<h4>Video Recording</h4>
+						<p>Video recording is an effective way of comprehensively capturing raw contextual data where conditions and resources permit. Video recording can help you capture important nonverbal communication cues in contextual data. However, factors such as the time and effort to produce and review the recordings can weigh against the use of video recording in contextual inquiry data collection. Confidentiality, privacy, and other such concerns can also preclude the use of video. </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="services-item">
+						<img src="{{url_for('static',filename ='img/icons/6.png')}}" alt="">
+						<h4>Video Editing</h4>
+						<p>Video editing is the manipulation and arrangement of video shots. Video editing is used to structure and present all video information, including films and television shows, video advertisements and video essays. Video editing has been dramatically democratized in recent years by editing software available for personal computers. Editing video can be difficult and tedious, so several technologies have been produced to aid people in this task. Pen based video editing software was developed in order to give people a more intuitive and fast way to edit video.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- Services section end  -->
+
+	
+	
+	
+	<!-- Footer section   -->
+	<footer class="footer-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 order-1 order-md-2">
+					<div class="footer-social-links">
+						<a href=""><i class="fa fa-pinterest"></i></a>
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-dribbble"></i></a>
+						<a href=""><i class="fa fa-behance"></i></a>
+					</div>
+				</div>
+				<div class="col-md-6 order-2 order-md-1">
+					<div class="copyright">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Image Style Transfter <i class aria-hidden="true"></i> System <a href="#" target="_blank">TM</a>
+
+</div>	
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end  -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="{{url_for('static',filename ='js/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/bootstrap.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/jquery.slicknav.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/owl.carousel.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/jquery.magnific-popup.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/circle-progress.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/mixitup.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/instafeed.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/masonry.pkgd.min.js')}}"></script>
+	<script src="{{url_for('static',filename ='js/main.js')}}"></script>
+
+	</body>
+</html>
